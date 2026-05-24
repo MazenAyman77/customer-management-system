@@ -57,16 +57,16 @@ src/main/resources/application.properties
 Example:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/customer_management
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+spring.datasource.url=jdbc:mysql://localhost:3306/customer_management_application
+spring.datasource.username=springstudent
+spring.datasource.password=springstudent
 ```
 
 ## 3. Run SQL Script
 
 Execute:
 
-database/customer_management.sql
+database/Customer-schema.sql
 
 inside MySQL.
 
@@ -157,4 +157,4 @@ JavaFX App
 
 # Author
 
-Your Name
+Mazen Ayman
